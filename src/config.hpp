@@ -29,7 +29,7 @@ namespace zmq
     enum 
     {
         //  Maximum number of sockets that can be opened at the same time.
-        max_sockets = 512,
+        max_sockets = 4096,
 
         //  Number of new messages in message pipe needed to trigger new memory
         //  allocation. Setting this parameter to 256 decreases the impact of
